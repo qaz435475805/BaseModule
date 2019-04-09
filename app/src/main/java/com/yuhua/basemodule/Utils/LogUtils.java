@@ -8,8 +8,7 @@ import android.util.Log;
  */
 public class LogUtils {
     //可以全局控制是否打印log日志
-//    private static boolean isPrintLog = Utils.isDebug();
-    private static boolean isPrintLog = true;
+    private static boolean isPrintLog = Utils.isDebug();
     private static String TAG = "------LogUtils";
 
     public static void v(String msg) {
